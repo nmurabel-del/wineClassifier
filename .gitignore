@@ -8,4 +8,5 @@ env/
 *.pkl
 models/*
 !models/.gitkeep
+!models/wine_model.joblib    <--- Ajoutez cette ligne
 .DS_Store
