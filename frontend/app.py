@@ -167,6 +167,33 @@ div[data-testid="stVerticalBlockBorderWrapper"] {
     border-radius: 15px;
     border: 1px solid #EAE3DB;
 }
+.stApp {
+    color: #000000 !important;
+}
+:where(.stMarkdown) p,
+:where(.stMarkdown) li {
+    color: #000000;
+}
+
+/* Bouton, y compris celui du formulaire */
+div.stButton > button,
+div[data-testid="stFormSubmitButton"] > button {
+    background: var(--wine) !important;
+    color: #FFFFFF !important;
+    border: none;
+    border-radius: 10px;
+    height: 52px;
+    font-weight: 700;
+}
+div.stButton > button:hover,
+div[data-testid="stFormSubmitButton"] > button:hover {
+    background: var(--wine-dark) !important;
+    color: #E5C58E !important;
+    border: 1px solid var(--gold);
+}
+div.stButton > button p,
+div[data-testid="stFormSubmitButton"] > button p {
+    c
 </style>
 """, unsafe_allow_html=True)
 # ==========================================================
