@@ -333,7 +333,7 @@ elif page == "Classification":
                     )
             st.markdown("<br>", unsafe_allow_html=True)
         submitted = st.form_submit_button(
-            "Lancer la classification",
+            "Prédire",
             use_container_width=True
         )
     # ======================================================
